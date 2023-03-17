@@ -22,6 +22,7 @@ practice in various languages. Simply ask anything related to mindfulness and ea
           <Chat />
              <Text className="text-zinc-600"><i>If any of my previous responses seemed incomplete, please type <b>continue</b>, and I will do my best to expand or clarify my previous statements.</i></Text>
         </div>
+        <Text className="text-zinc-600">This project is dedicated with respect an gratitude to all my teachers</Text>
      <Text className="text-zinc-600">Concept, programming and prompt engineering by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
            <Text className="text-zinc-600"> <Link href="https://patreon.com/user?u=84024387&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_linkv">Support my research and help with costs of OpenAI</Link></Text>
       </section>
