@@ -15,6 +15,7 @@ function Home() {
          <Text className="text-zinc-600"><i>Bhikkh-AI, powered by a large AI language model, aims to support your meditation practice but is not meant to replace knowledgeable human teachers, friends, or mental health professionals.</i></Text>
          <Text className="text-zinc-600"><i>Bhikkh-AI is envisioned as a digital art project, and like anything else, it should be approached with an open yet critical mind. It may have inaccuracies and may occasionally respond in unexpected ways.</i></Text>
           <Text className="text-zinc-600"> <b>If any of my previous responses seemed incomplete, please type "continue," and I will do my best to expand or clarify my previous statements.</b></Text>
+          <Text className="text-zinc-600">Concept, programming and prompt engineering by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
       </section>
       <section className="flex flex-col gap-3">
         <Text variant="h2">May you be free from suffering...</Text>
@@ -22,7 +23,7 @@ function Home() {
           <Chat />
            
         </div>
-         <Text className="text-zinc-600">Concept, programming and prompt engineering by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
+    
       </section>
     </Page>
   )
