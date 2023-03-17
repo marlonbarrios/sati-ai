@@ -22,7 +22,7 @@ function Home() {
         <Text variant="h2">May you be free from suffering...</Text>
         <div className="lg:w-2/3">
           <Chat />
-           <Text className="text-zinc-600">Concept and Programming by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
+           <Text className="text-zinc-600">Concept, programming and promp engineering by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
         </div>
       </section>
     </Page>
