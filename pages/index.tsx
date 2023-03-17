@@ -1,11 +1,13 @@
 import { Layout, Text, Page } from '@vercel/examples-ui'
 import { Chat } from '../components/Chat'
 import Link from 'next/link';
+import myImage from 'https://user-images.githubusercontent.com/90220317/225998843-ffa3ca3d-318c-475a-833d-90c186d2c1d2.jpg)'; // Replace with the actual path to your image
 
 function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-6">
+         <img src={myImage} alt="Bhikkh-AI" className="w-full h-auto" /> {/* Add this line */}
         <Text variant="h1">Bhikkh-AI</Text>
         <Text className="text-zinc-600">Introducing Bhikkh-AI, an AI-powered Buddhist meditation guide that can answer all your questions about mindfulness meditation and early Buddhist concepts and philosophy. This innovative tool is <b>multilingual</b>, so you can receive guidance on your meditation 
 practice in various languages. Simply ask anything related to mindfulness and early Buddhism, and the chatbot will provide you with wise and reliable guidance. Experience the benefits of having a meditation guide right at your fingertips, wherever and whenever you need it.</Text>
