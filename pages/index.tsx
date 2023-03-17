@@ -20,7 +20,7 @@ function Home() {
         <Text variant="h2">May you be free from suffering...</Text>
         <div className="lg:w-2/3">
           <Chat />
-             <Text className="text-zinc-600"> <b>If any of my previous responses seemed incomplete. If you encounter any issues with my responses, please type "continue," and I will do my best to expand or clarify my previous statements.</b></Text>
+             <Text className="text-zinc-600"> <b>If any of my previous responses seemed incomplete, please type "continue," and I will do my best to expand or clarify my previous statements.</b></Text>
         </div>
       </section>
     </Page>
