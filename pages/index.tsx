@@ -7,7 +7,7 @@ function Home() {
       <section className="flex flex-col gap-6">
         <Text variant="h1">Bhikkh-AI</Text>
         <Text className="text-zinc-600">
-          An AI meditation mentor
+          An AI powered buddhist meditation teacher. Ask anything about mindfulness meditation and early Buddhism concepts and philosophy.
         </Text>
       </section>
 
