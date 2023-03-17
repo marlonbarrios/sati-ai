@@ -18,8 +18,7 @@ function Home() {
         <Text variant="h2">May you be free from suffering...</Text>
         <div className="lg:w-2/3">
           <Chat />
-           <Text className="text-zinc-600">
-             Concept and Programming by <a href="https://marlonbarrios.github.io/" target="_blank">Marlon Barrios Solano</a></Text>
+           <Text className="text-zinc-600">Concept and Programming by <a href="https://marlonbarrios.github.io/">Marlon Barrios Solano</a></Text>
         </div>
       </section>
     </Page>
