@@ -19,7 +19,7 @@ function Home() {
         <div className="lg:w-2/3">
           <Chat />
            <Text className="text-zinc-600">
-             Concept and Programming by Marlon Barrios Solano
+             Concept and Programming by  <a href="https://marlonbarrios.github.io/" target="_blank">Marlon Barrios Solano</a>
              
               </Text>
              
