@@ -36,7 +36,7 @@ const handler = async (req: Request): Promise<Response> => {
     temperature: process.env.AI_TEMP ? parseFloat(process.env.AI_TEMP) : 0.7,
     max_tokens: process.env.AI_MAX_TOKENS
       ? parseInt(process.env.AI_MAX_TOKENS)
-      : 100,
+      : 200,
     top_p: 1,
     frequency_penalty: 0,
     presence_penalty: 0,
