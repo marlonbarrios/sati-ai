@@ -54,5 +54,6 @@ The app should be up and running at http://localhost:3000.
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment))
 
-![th-3759788932](c)
+![th-3759788932](c)![th-3759788932](https://user-images.githubusercontent.com/90220317/225998843-ffa3ca3d-318c-475a-833d-90c186d2c1d2.jpg)
+
 
