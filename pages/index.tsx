@@ -1,5 +1,6 @@
 import { Layout, Text, Page } from '@vercel/examples-ui'
 import { Chat } from '../components/Chat'
+import Link from 'next/link';
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
         <Text variant="h2">May you be free from suffering...</Text>
         <div className="lg:w-2/3">
           <Chat />
-           <Text className="text-zinc-600">Concept and Programming by <a href="https://marlonbarrios.github.io/">Marlon Barrios Solano</a></Text>
+           <Text className="text-zinc-600">Concept and Programming by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
         </div>
       </section>
     </Page>
