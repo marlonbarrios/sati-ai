@@ -12,10 +12,8 @@ function Home() {
           and early Buddhist concepts and philosophy. This innovative tool is <b>multilingual</b>, so you can receive guidance on your meditation 
           practice in various languages. Simply ask anything related to mindfulness and early Buddhism, and the chatbot will provide you with wise and reliable guidance. Experience the benefits of having a meditation guide right at your fingertips, wherever and whenever you need it.
         </Text>
-          <Text className="text-zinc-600">
-        <i>Bhikkh-AI, powered by a large AI language model, aims to support your meditation practice but is not meant to replace knowledgeable human teachers, friends, or mental health professionals.</i>
-        </Text><i>Bhikkh-AI is envisioned as a digital art project, and like anything else, it should be approached with an open yet critical mind. It may have inaccuracies and may occasionally respond in unexpected ways.</i></Text>
-       
+         <Text className="text-zinc-600"><i>Bhikkh-AI, powered by a large AI language model, aims to support your meditation practice but is not meant to replace knowledgeable human teachers, friends, or mental health professionals.</i></Text>
+         <Text className="text-zinc-600"><i>Bhikkh-AI is envisioned as a digital art project, and like anything else, it should be approached with an open yet critical mind. It may have inaccuracies and may occasionally respond in unexpected ways.</i></Text>
          <Text className="text-zinc-600">Concept, programming and promp engineering by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
       </section>
       <section className="flex flex-col gap-3">
