@@ -10,10 +10,12 @@ function App({ Component, pageProps }: AppProps) {
   const Layout = getLayout<LayoutProps>(Component)
 
   return (
+    <Layout
     
+    >
       <Component {...pageProps} />
       <Analytics />
-   
+    </Layout>
   )
 }
 
