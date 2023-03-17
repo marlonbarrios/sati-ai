@@ -14,7 +14,7 @@ function Home() {
         </Text>
          <Text className="text-zinc-600"><i>Bhikkh-AI, powered by a large AI language model, aims to support your meditation practice but is not meant to replace knowledgeable human teachers, friends, or mental health professionals.</i></Text>
          <Text className="text-zinc-600"><i>Bhikkh-AI is envisioned as a digital art project, and like anything else, it should be approached with an open yet critical mind. It may have inaccuracies and may occasionally respond in unexpected ways.</i></Text>
-         <Text className="text-zinc-600">Concept, programming and promp engineering by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
+         <Text className="text-zinc-600">Concept, programming and prompt engineering by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
       </section>
       <section className="flex flex-col gap-3">
         <Text variant="h2">May you be free from suffering...</Text>
