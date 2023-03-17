@@ -9,14 +9,12 @@ function Home() {
         <Text className="text-zinc-600">
          Introducing Bhikkh-AI, an AI-powered Buddhist meditation teacher that can answer all your questions about mindfulness meditation 
           and early Buddhist concepts and philosophy. This innovative tool is multilingual, so you can receive guidance on your meditation 
-          practice in various languages. </br>
-          Additionally, if the chatbot leaves a paragraph incomplete, you can simply type "continue" to prompt it to continue the teaching.With Bhikkh-AI,
-        you can deepen your understanding of Buddhist principles and receive insightful responses to your inquiries. Simply ask anything related to mindfulness and early Buddhism, and the chatbot will provide you with wise and reliable guidance. Experience the benefits of having a meditation teacher right at your fingertips, wherever and whenever you need it.
+          practice in various languages. Simply ask anything related to mindfulness and early Buddhism, and the chatbot will provide you with wise and reliable guidance. Experience the benefits of having a meditation teacher right at your fingertips, wherever and whenever you need it.
         </Text>
       </section>
 
       <section className="flex flex-col gap-3">
-        <Text variant="h2">AI Meditation Chat Bot:</Text>
+        <Text variant="h2">May you be free from suffering...</Text>
         <div className="lg:w-2/3">
           <Chat />
         </div>
