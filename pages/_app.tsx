@@ -1,8 +1,8 @@
 import type { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
 import type { LayoutProps } from '@vercel/examples-ui/layout';
-import {Home} from 'Home';
-import type  {Head}from 'next/head'
+import Home from 'Home';
+
 
 import { getLayout } from '@vercel/examples-ui';
 
@@ -13,9 +13,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
    
     <Home>
-       <Head>
-        <title>Bhikkh-AI</title>
-      </Head>
+       
       <Component {...pageProps} />
       <Analytics />
     </Home>
