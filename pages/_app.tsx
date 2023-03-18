@@ -11,10 +11,11 @@ import '@vercel/examples-ui/globals.css';
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <Head>
+   
+    <Home>
+       <Head>
         <title>Bhikkh-AI</title>
       </Head>
-    <Home>
       <Component {...pageProps} />
       <Analytics />
     </Home>
