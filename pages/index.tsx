@@ -1,7 +1,7 @@
 import { Layout, Text, Page } from '@vercel/examples-ui'
 import { Chat } from '../components/Chat'
 import Link from 'next/link';
-import type  {Head}from 'next/head'
+import type {Head} from 'next/head'
 
 
 function Home() {
