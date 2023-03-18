@@ -33,6 +33,6 @@ practice in various languages. Simply ask anything related to mindfulness and ea
   )
 }
 
-Home.Layout = Layout
+
 
 export default Home
