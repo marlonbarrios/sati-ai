@@ -3,8 +3,16 @@ import { Chat } from '../components/Chat'
 import Link from 'next/link';
 import Head from 'next/head'
 
+import { ReactNode } from 'react';
 
-function Home() {
+type HomeProps = {
+  children: ReactNode[];
+}
+
+
+
+
+function Home({ children }: HomeProps) {
   return (
     <Page className="flex flex-col gap-12">
       <Head>
