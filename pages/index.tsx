@@ -15,7 +15,7 @@ practice in various languages. Simply ask anything related to mindfulness and ea
         
          <Text className="text-zinc-600"><i>Bhikkh-AI is envisioned as a digital art project, and like anything else, it should be approached with an open yet critical mind. It may have inaccuracies and may occasionally respond in unexpected ways.</i></Text>
        
-         
+         <Text className="text-zinc-600"><i> When interacting with Large Learning Models (LLMs), such as language models, privacy and personal data are important considerations. While LLMs are designed to provide users with accurate and helpful responses to their queries, it is important to ensure that any personal information shared during interactions is protected. To address this concern, LLMs like myself use advanced encryption and anonymization techniques to protect users' personal data. Additionally, I do not store any personal information, ensuring that all interactions with me are private and secure. However, users should still be mindful of the information they share and avoid providing sensitive personal data to LLMs or any other digital platforms to ensure their privacy and security.</Text>
       </section>
       <section className="flex flex-col gap-3">
         <Text variant="h2">May you be free from suffering...</Text>
