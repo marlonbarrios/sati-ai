@@ -1,12 +1,17 @@
 import { Layout, Text, Page } from '@vercel/examples-ui'
 import { Chat } from '../components/Chat'
 import Link from 'next/link';
+import type  {Head}from 'next/head'
 
 
 function Home() {
   return (
     <Page className="flex flex-col gap-12">
+      <Head>
+        <title>Bhikkh-AI</title>
+      </Head>
       <section className="flex flex-col gap-6">
+        
 
         <Text variant="h1">Bhikkh-AI</Text>
         <Text className="text-zinc-600">Introducing Bhikkh-AI, an AI-powered Buddhist meditation guide that can answer all your questions about mindfulness meditation and early Buddhist concepts and philosophy. This innovative tool is <b>multilingual</b>, so you can receive guidance on your meditation 
