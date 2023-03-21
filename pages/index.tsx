@@ -36,7 +36,7 @@ function Home({ children }: HomeProps) {
           <Chat />
              <Text className="text-zinc-600"><i>If any of my previous responses seemed incomplete, please type <b>continue</b>, and I will do my best to expand or clarify my previous statements.</i></Text>
         </div>
-        <Text className="text-zinc-600">The Pali term <b>sati</b> is related to the concept of <b>remembering</b>  or <b>recollection</b> .In the context of Buddhist practice, sati, often translated as <b>mindfulness</b>, involves maintaining a clear, non-judgmental awareness of our present-moment experience while also "remembering" to apply the teachings of the Buddha to our daily lives.</Text>
+        <Text className="text-zinc-600">The Pali term <b>sati</b> is related to the concept of <b>remembering</b>  or <b>recollection</b> .In the context of Buddhist practice, sati, often translated as <b>mindfulness</b>, involves maintaining a clear, non-judgmental awareness of our present-moment experience while also remembering to apply the teachings of the Buddha to our daily lives.</Text>
 
 By cultivating sati, we ,b>remember</b> to stay present with our thoughts, emotions, bodily sensations, and surrounding environment without being caught up in them. 
         <Text className="text-zinc-600"><b>This project is dedicated with respect and gratitude to all my teachers</b></Text>
