@@ -21,9 +21,9 @@ function Home({ children }: HomeProps) {
       <section className="flex flex-col gap-6">
         
 
-        <Text variant="h1">Bhikkh-AI</Text>
+        <Text variant="h1">Sati-AI</Text>
         <Text className="text-zinc-600">Introducing Sati-AI, an AI-powered Buddhist meditation guide that can answer all your questions about mindfulness meditation and early Buddhist concepts and philosophy. Sati-AI is <b>multilingual</b>, so you can receive guidance on your meditation  practice in various languages. Simply ask anything related to mindfulness and early Buddhism, and the chatbot will provide you with wise and reliable guidance. Experience the benefits of having a mindfulness meditation guide right at your fingertips, wherever and whenever you need it.</Text>
-        <Text className="text-zinc-600">Generally, Bhikkh-AI performs well in widely spoken languages with extensive training data, such as: English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, Arabic. </Text>
+        <Text className="text-zinc-600">Generally, Sati-AI performs well in widely spoken languages with extensive training data, such as: English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, Arabic. </Text>
          <Text className="text-zinc-600"><i>Sati-AI, powered by a large AI language model, aims to support your meditation practice but is not meant to replace knowledgeable human teachers, friends, or mental health professionals.</i></Text>
         
          <Text className="text-zinc-600"><i>Sati-AI is envisioned as a digital art project, and like anything else, it should be approached with an open yet critical mind. It may have inaccuracies and may occasionally respond in unexpected ways.</i></Text>
@@ -38,7 +38,6 @@ function Home({ children }: HomeProps) {
         </div>
         <Text className="text-zinc-600">The Pali term <b>sati</b> is related to the concept of <b>remembering</b>  or <b>recollection</b> .In the context of Buddhist practice, sati, often translated as <b>mindfulness</b>, involves maintaining a clear, non-judgmental awareness of our present-moment experience while also remembering to apply the teachings of the Buddha to our daily lives.</Text>
 
-By cultivating sati, we ,b>remember</b> to stay present with our thoughts, emotions, bodily sensations, and surrounding environment without being caught up in them. 
         <Text className="text-zinc-600"><b>This project is dedicated with respect and gratitude to all my teachers</b></Text>
      <Text className="text-zinc-600">Concept, programming and prompt engineering by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
          <Text className="text-zinc-600">Powered by <Link href="https://openai.com/product/gpt-4">GPT-4/OpenAI</Link></Text>
