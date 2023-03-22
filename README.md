@@ -22,11 +22,18 @@ https://user-images.githubusercontent.com/90220317/226788012-5f0de1d2-5ce3-4fda-
 
 https://medium.com/@marlon_21867/sati-ai-an-ai-powered-buddhist-meditation-chatbot-137884f30a4b
 
-### Components
+### Components fro template ceated by Vercel.
 
 - Next.js
-- OpenAI API (ChatGPT) - streaming
+- OpenAI API (ChatGPT4) - streaming
 - API Routes (Edge runtime) - streaming
+
+Roadmap:
+1. Logo integration and branting.
+2.-Ongoing Knowledge fine tuning and questions of interdisciplinarity. 
+3.-Language and memory of interactions???
+4.-Multimodality.
+5.-text to speech-speech to text.
 
 
 ```
