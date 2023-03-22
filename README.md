@@ -1,6 +1,26 @@
-# AI Chat GPT-3 example
+![Screen Shot 2023-03-17 at 3 05 30 PM](https://user-images.githubusercontent.com/90220317/226788042-61fbe445-1d3a-4fe1-87a4-393450314df4.png)
+# Sati-AI
 
-This example shows how to implement a simple chat bot using Next.js, API Routes, and [OpenAI ChatGPT API](https://beta.openai.com/docs/api-reference/completions/create).
+Introducing Sati-AI, an AI-powered Buddhist meditation guide that can answer all your questions about mindfulness meditation and early Buddhist concepts and philosophy. Sati-AI is multilingual, so you can receive guidance on your meditation practice in various languages. Simply ask anything related to mindfulness and early Buddhism, and the chatbot will provide you with wise and reliable guidance. Experience the benefits of having a mindfulness meditation guide right at your fingertips, wherever and whenever you need it.
+
+Generally, Sati-AI performs well in widely spoken languages with extensive training data, such as: English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, Arabic.
+
+
+Sati-AI, powered by a large AI language model, aims to support your meditation practice but is not meant to replace knowledgeable human teachers, friends, or mental health professionals.
+
+Sati-AI is envisioned as a digital art project, and like anything else, it should be approached with an open yet critical mind. It may have inaccuracies and may occasionally respond in unexpected ways.
+
+When interacting with Large Learning Models (LLMs), such as this one, privacy and personal data are important considerations. While LLMs are designed to provide users with accurate and helpful responses to their queries, it is important to ensure that any personal information shared during interactions is protected. To address this concern, LLMs like Sati-AI uses advanced encryption and anonymization techniques to protect interactions. Additionally, Sati-AI does not store any personal information, ensuring that all interactions with it are private and secure. However, users should still be mindful of the information they share and avoid providing sensitive personal data to LLMs or any other digital platforms to ensure their privacy and security.
+
+May you be free from suffering...
+
+
+
+https://user-images.githubusercontent.com/90220317/226788012-5f0de1d2-5ce3-4fda-bdf5-eac0f1452c82.mov
+
+
+
+https://medium.com/@marlon_21867/sati-ai-an-ai-powered-buddhist-meditation-chatbot-137884f30a4b
 
 ### Components
 
@@ -8,52 +28,7 @@ This example shows how to implement a simple chat bot using Next.js, API Routes,
 - OpenAI API (ChatGPT) - streaming
 - API Routes (Edge runtime) - streaming
 
-## How to Use
 
-You can choose from one of the following two methods to use this repository:
-
-### One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/ai-chatgpt&project-name=ai-chatgpt&repository-name=ai-chatgpt&env=OPENAI_API_KEY)
-
-### Clone and Deploy
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example https://github.com/vercel/examples/tree/main/solutions/ai-chatgpt
-# or
-yarn create next-app --example https://github.com/vercel/examples/tree/main/solutions/ai-chatgpt
 ```
-
-#### Set up environment variables
-
-Rename [`.env.example`](.env.example) to `.env.local`:
-
-```bash
-cp .env.example .env.local
-```
-
-then, update `OPENAI_API_KEY` with your [OpenAI](https://beta.openai.com/account/api-keys) secret key.
-
-Next, run Next.js in development mode:
-
-```bash
-npm install
-npm run dev
-
-# or
-
-yarn
-yarn dev
-```
-
-The app should be up and running at http://localhost:3000.
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment))
-
-![th-3759788932](c)![th-3759788932](https://user-images.githubusercontent.com/90220317/225998843-ffa3ca3d-318c-475a-833d-90c186d2c1d2.jpg)
 
 
