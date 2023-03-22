@@ -15,9 +15,7 @@ When interacting with Large Learning Models (LLMs), such as this one, privacy an
 May you be free from suffering...
 
 
-
 https://user-images.githubusercontent.com/90220317/226788012-5f0de1d2-5ce3-4fda-bdf5-eac0f1452c82.mov
-
 
 
 https://medium.com/@marlon_21867/sati-ai-an-ai-powered-buddhist-meditation-chatbot-137884f30a4b
@@ -30,10 +28,14 @@ https://medium.com/@marlon_21867/sati-ai-an-ai-powered-buddhist-meditation-chatb
 
 Roadmap:
 1. Logo integration and branting.
-2.-Ongoing Knowledge fine tuning and questions of interdisciplinarity. 
-3.-Language and memory of interactions???
-4.-Multimodality.
-5.-text to speech-speech to text.
+
+2.-Ongoing Knowledge fine tuning and questions of interdisciplinarity: contemporary somatics (somatic experiencing/trauma theory), polyvagal theory, posthumanist knowledges(Donna Haraway, Rosi Briadotti...), epistemology of the south, etc, embodied cognition), symbolic language.
+
+3.-Language and memory of interactions.
+
+4.-Multimodality as gifting
+
+5.-text to speech-speech to text. Mach 2024
 
 
 ```
