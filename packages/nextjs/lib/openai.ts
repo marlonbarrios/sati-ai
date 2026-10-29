@@ -14,7 +14,7 @@ function openaiHeaders() {
 
 export function requireOpenAIKey() {
   if (!process.env.OPENAI_API_KEY) {
-    return Response.json({ error: "Missing OPENAI_API_KEY in web/.env.local" }, { status: 500 });
+    return Response.json({ error: "Missing OPENAI_API_KEY in packages/nextjs/.env.local" }, { status: 500 });
   }
   return null;
 }

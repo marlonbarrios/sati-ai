@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Meaningful meditations",
   "private": true,
-  "workspaces": ["web"],
+  "workspaces": ["packages/nextjs"],
   "scripts": {
     "dev": "npm run dev -w sati-ai",
     "build": "npm run build -w sati-ai",

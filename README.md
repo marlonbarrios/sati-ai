@@ -23,7 +23,7 @@ There is no wallet, contract, or NFT minting in this app.
 npm install
 ```
 
-Put your OpenAI key in `web/.env.local`:
+Put your OpenAI key in `packages/nextjs/.env.local`:
 
 ```bash
 OPENAI_API_KEY=sk-...
@@ -42,15 +42,17 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000).
 
+On Vercel, set the project Root Directory to `packages/nextjs`. That folder is the Next.js app, and its `package.json` lists `next`.
+
 ## Pali Ontology files
 
-The glossary in `web/data/pali-ontology.ts` is the source. It currently holds 130 terms. The same glossary is served live:
+The glossary in `packages/nextjs/data/pali-ontology.ts` is the source. It currently holds 130 terms. The same glossary is served live:
 
 - [Turtle](http://localhost:3000/api/ontology/turtle)
 - [OWL](http://localhost:3000/api/ontology/owl)
 - [JSON](http://localhost:3000/api/ontology/json)
 
-Copies of that export are kept in `web/ontology/`:
+Copies of that export are kept in `packages/nextjs/ontology/`:
 
 - `sati-pali-ontology.ttl`
 - `sati-pali-ontology.owl`
