@@ -1,43 +1,59 @@
-![Screen Shot 2023-03-17 at 3 05 30 PM](https://user-images.githubusercontent.com/90220317/226788042-61fbe445-1d3a-4fe1-87a4-393450314df4.png)
 # Sati-AI
 
-Introducing Sati-AI, an AI-powered Buddhist meditation guide that can answer all your questions about mindfulness meditation and early Buddhist concepts and philosophy. Sati-AI is multilingual, so you can receive guidance on your meditation practice in various languages. Simply ask anything related to mindfulness and early Buddhism, and the chatbot will provide you with wise and reliable guidance. Experience the benefits of having a mindfulness meditation guide right at your fingertips, wherever and whenever you need it.
+A guide to the Pāli world of the Theravada tradition. The conversation is about Buddhist thought: the words, the discourses, and how early Buddhism understands experience. A wise scholar of these texts explains a teaching in its own terms, and can also guide a short meditation from that teaching. A human teacher is still the one to learn with in person.
 
-Generally, Sati-AI performs well in widely spoken languages with extensive training data, such as: English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, Arabic.
+Sati answers from a Buddhist teacher prompt and from the Pali Ontology. When a conversation touches one of those words, that headword and its English gloss go with the question. The glosses were written for this site. They are not copied from a copyrighted dictionary.
 
+There is no wallet, contract, or NFT minting in this app.
 
-Sati-AI, powered by a large AI language model, aims to support your meditation practice but is not meant to replace knowledgeable human teachers, friends, or mental health professionals.
+## Pages
 
-Sati-AI is envisioned as a digital art project, and like anything else, it should be approached with an open yet critical mind. It may have inaccuracies and may occasionally respond in unexpected ways.
+- **Talk**, on the home page. Voice is on by default, in the Echo voice, a little slower than the model's usual pace. The menu also offers alloy, ash, ballad, coral, sage, shimmer, verse, marin, and cedar. Voice can be turned off for typing. Hold the space bar or Hold to talk to speak. A conversation can be saved as a PDF or as an audio file.
+- **About**. What Sati is, and why it was made.
+- **Pali Ontology**. The glossary, with the network of terms beside it.
+- **Remember**. A short poem in Pāli and English drawn from the three marks, with a new image each visit. The poem and the image are not kept.
 
-When interacting with Large Learning Models (LLMs), such as this one, privacy and personal data are important considerations. While LLMs are designed to provide users with accurate and helpful responses to their queries, it is important to ensure that any personal information shared during interactions is protected. To address this concern, LLMs like Sati-AI uses advanced encryption and anonymization techniques to protect interactions. Additionally, Sati-AI does not store any personal information, ensuring that all interactions with it are private and secure. However, users should still be mindful of the information they share and avoid providing sensitive personal data to LLMs or any other digital platforms to ensure their privacy and security.
+## Requirements
 
-May you be free from suffering...
+- [Node.js 20+](https://nodejs.org/en/download/)
 
+## Get started
 
-https://user-images.githubusercontent.com/90220317/226788012-5f0de1d2-5ce3-4fda-bdf5-eac0f1452c82.mov
-
-
-https://medium.com/@marlon_21867/sati-ai-an-ai-powered-buddhist-meditation-chatbot-137884f30a4b
-
-### Components fro template ceated by Vercel.
-
-- Next.js
-- OpenAI API (ChatGPT4) - streaming
-- API Routes (Edge runtime) - streaming
-
-Roadmap:
-1. Logo integration and branting.
-
-2.-Ongoing Knowledge fine tuning and questions of interdisciplinarity: contemporary somatics (somatic experiencing/trauma theory), polyvagal theory, posthumanist knowledges(Donna Haraway, Rosi Briadotti...), epistemology of the south, etc, embodied cognition), symbolic language.
-
-3.-Language and memory of interactions.
-
-4.-Multimodality as gifting
-
-5.-text to speech-speech to text. Mach 2024
-
-
+```bash
+npm install
 ```
 
+Put your OpenAI key in `web/.env.local`:
 
+```bash
+OPENAI_API_KEY=sk-...
+OPENAI_MODEL=gpt-6-luna
+OPENAI_REALTIME_MODEL=gpt-realtime-2.1
+OPENAI_IMAGE_MODEL=gpt-image-1-mini
+```
+
+The talk uses the realtime model. Remember uses the text model and the image model.
+
+Start the app:
+
+```bash
+npm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000).
+
+## Pali Ontology files
+
+The glossary in `web/data/pali-ontology.ts` is the source. It currently holds 130 terms. The same glossary is served live:
+
+- [Turtle](http://localhost:3000/api/ontology/turtle)
+- [OWL](http://localhost:3000/api/ontology/owl)
+- [JSON](http://localhost:3000/api/ontology/json)
+
+Copies of that export are kept in `web/ontology/`:
+
+- `sati-pali-ontology.ttl`
+- `sati-pali-ontology.owl`
+- `sati-pali-ontology.json`
+
+Those three files match the glossary, including upekkhā among the divine abidings and the later headwords for craving, liberation, and knowledge and vision according to reality.

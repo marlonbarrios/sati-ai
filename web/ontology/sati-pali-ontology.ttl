@@ -1,0 +1,1777 @@
+@prefix sati: <https://marlonbarrios.github.io/sati-ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://marlonbarrios.github.io/sati-ontology> a owl:Ontology, skos:ConceptScheme ;
+  rdfs:label "Sati Pali Ontology"@en ;
+  dct:description "This ontology follows the public-domain early Buddhist lists preserved in the Pāli Tipiṭaka: the three marks, the four noble truths (SN 56.11), the noble eightfold path (SN 45.8), dependent origination (SN 12.2), the aggregates (SN 22), the sense bases (SN 35), satipaṭṭhāna (MN 10, DN 22), and the thirty-seven bodhipakkhiyā dhammā. The four paramattha dhammas are the later Theravada Abhidhamma division of that same field. The English glosses were written for Sati-AI. They are not copied from a copyrighted dictionary."@en ;
+  dct:creator "Marlon Barrios Solano"@en ;
+  owl:versionInfo "0.1.0" .
+
+<https://marlonbarrios.github.io/sati-ontology#group-three-marks> a owl:Class, skos:Collection ;
+  rdfs:label "Three marks"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-four-noble-truths> a owl:Class, skos:Collection ;
+  rdfs:label "Four noble truths"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> a owl:Class, skos:Collection ;
+  rdfs:label "Eightfold path"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-three-trainings> a owl:Class, skos:Collection ;
+  rdfs:label "Three trainings"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> a owl:Class, skos:Collection ;
+  rdfs:label "Dependent origination"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-five-aggregates> a owl:Class, skos:Collection ;
+  rdfs:label "Five aggregates"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-sense-bases> a owl:Class, skos:Collection ;
+  rdfs:label "Sense bases"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> a owl:Class, skos:Collection ;
+  rdfs:label "Foundations of mindfulness"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> a owl:Class, skos:Collection ;
+  rdfs:label "Thirty-seven factors"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-hindrances> a owl:Class, skos:Collection ;
+  rdfs:label "Hindrances"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-fetters> a owl:Class, skos:Collection ;
+  rdfs:label "Fetters"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> a owl:Class, skos:Collection ;
+  rdfs:label "Taints and roots"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-divine-abidings> a owl:Class, skos:Collection ;
+  rdfs:label "Divine abidings"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-noble-persons> a owl:Class, skos:Collection ;
+  rdfs:label "Noble persons"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-ultimates> a owl:Class, skos:Collection ;
+  rdfs:label "Ultimates"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-practice> a owl:Class, skos:Collection ;
+  rdfs:label "Practice"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#group-refuge> a owl:Class, skos:Collection ;
+  rdfs:label "Refuge"@en ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> a dct:BibliographicResource ;
+  dct:title "Satipatthana: The Direct Path to Realization"@en ;
+  dct:type "Book"@en ;
+  rdfs:seeAlso <https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/direct-path.pdf> ;
+  rdfs:comment "Bhikkhu Anālayo’s commentary, offered as a free PDF by the University of Hamburg. The book remains his copyright, so its prose is not copied here. The terms below are the public-domain satipaṭṭhāna map the book explains."@en .
+
+<https://marlonbarrios.github.io/sati-ontology#source-analayo-practice-guide> a dct:BibliographicResource ;
+  dct:title "Early Buddhist Satipaṭṭhāna Meditation: A Practice Guide"@en ;
+  dct:type "Book"@en ;
+  rdfs:seeAlso <https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/satipatthanapracticeguide.pdf> ;
+  rdfs:comment "Anālayo’s practice companion to the same four foundations, also a free PDF from Hamburg, and also not copied into these glosses."@en .
+
+<https://marlonbarrios.github.io/sati-ontology#source-analayo-compassion> a dct:BibliographicResource ;
+  dct:title "Compassion and Emptiness in Early Buddhist Meditation"@en ;
+  dct:type "Book"@en ;
+  rdfs:seeAlso <https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/compassionemptiness.pdf> ;
+  rdfs:comment "Anālayo on karuṇā and suññatā in the early texts. The PDF is free to read; the glossary keeps its own short glosses."@en .
+
+<https://marlonbarrios.github.io/sati-ontology#source-varela-science-religion-art> a dct:BibliographicResource ;
+  dct:title "Francisco Varela on Science, Religion and Art"@en ;
+  dct:type "Talk"@en ;
+  rdfs:seeAlso <https://www.youtube.com/watch?v=vgZMPcrRmio> ;
+  rdfs:comment "A contemporary talk, not a Pāli text. It sits beside the body and mindfulness, where practice meets embodied cognition."@en .
+
+<https://marlonbarrios.github.io/sati-ontology#source-salzberg-openness> a dct:BibliographicResource ;
+  dct:title "Sharon Salzberg: The Journey from Isolation to Openness"@en ;
+  dct:type "Talk"@en ;
+  rdfs:seeAlso <https://www.youtube.com/watch?v=wu9A1YHLU5Q&t=298> ;
+  rdfs:comment "A talk on goodwill and opening the heart. The Pāli term it bears on is mettā."@en .
+
+<https://marlonbarrios.github.io/sati-ontology#source-analayo-traditions> a dct:BibliographicResource ;
+  dct:title "Bhikkhu Anālayo: Respecting Different Buddhist Traditions"@en ;
+  dct:type "Talk"@en ;
+  rdfs:seeAlso <https://www.youtube.com/watch?v=cd8zAVltf4s> ;
+  rdfs:comment "A conversation about staying with the early teaching while respecting other Buddhist traditions."@en .
+
+<https://marlonbarrios.github.io/sati-ontology#source-lions-roar-sati> a dct:BibliographicResource ;
+  dct:title "Lion's Roar: Meet Sati-AI"@en ;
+  dct:type "Article"@en ;
+  rdfs:seeAlso <https://www.lionsroar.com/ai-meditation-teacher/> ;
+  rdfs:comment "A magazine piece about this project. It is an article, not a canonical source, and it points back to sati."@en .
+
+<https://marlonbarrios.github.io/sati-ontology#tilakkhana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-three-marks> ;
+  skos:prefLabel "tilakkhaṇa"@pi ;
+  skos:prefLabel "three marks"@en ;
+  skos:definition "The three characteristics of conditioned experience: impermanence, unsatisfactoriness, and not-self. Seeing them clearly is the heart of insight."@en ;
+  skos:altLabel "three marks"@en ;
+  skos:altLabel "three characteristics"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#anicca> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dukkha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#anatta> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#anicca> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-three-marks> ;
+  skos:prefLabel "anicca"@pi ;
+  skos:prefLabel "impermanence"@en ;
+  skos:definition "Whatever arises changes and ceases. Nothing conditioned stays fixed."@en ;
+  skos:altLabel "impermanence"@en ;
+  skos:altLabel "impermanent"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tilakkhana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dukkha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#anatta> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#dukkha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-three-marks> ;
+  skos:prefLabel "dukkha"@pi ;
+  skos:prefLabel "unsatisfactoriness"@en ;
+  skos:definition "The strain of experience that cannot finally satisfy: pain, change, and the burden of conditioned life. It is the first noble truth, not a claim that every moment feels miserable."@en ;
+  skos:altLabel "suffering"@en ;
+  skos:altLabel "unsatisfactoriness"@en ;
+  skos:altLabel "stress"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tilakkhana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#ariyasacca> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tanha> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-compassion> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#anatta> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-three-marks> ;
+  skos:prefLabel "anattā"@pi ;
+  skos:prefLabel "not-self"@en ;
+  skos:definition "No experience, body, or mind contains a permanent owner. What is seen as 'me' or 'mine' is a changing process."@en ;
+  skos:altLabel "not-self"@en ;
+  skos:altLabel "non-self"@en ;
+  skos:altLabel "no self"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tilakkhana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#pancakkhandha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sunnata> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-compassion> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#ariyasacca> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-four-noble-truths> ;
+  skos:prefLabel "cattāri ariyasaccāni"@pi ;
+  skos:prefLabel "four noble truths"@en ;
+  skos:definition "The framework of the teaching: unsatisfactoriness, its origin, its cessation, and the path to cessation. Each truth has a task: understand, abandon, realize, develop."@en ;
+  skos:altLabel "four noble truths"@en ;
+  skos:altLabel "noble truths"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dukkha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samudaya> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nirodha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#magga> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#samudaya> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-four-noble-truths> ;
+  skos:prefLabel "dukkhasamudaya"@pi ;
+  skos:prefLabel "origin of unsatisfactoriness"@en ;
+  skos:definition "The second truth. Craving produces the repeating stress of conditioned life."@en ;
+  skos:altLabel "origin"@en ;
+  skos:altLabel "craving"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#ariyasacca> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#nirodha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-four-noble-truths> ;
+  skos:prefLabel "dukkhanirodha"@pi ;
+  skos:prefLabel "cessation"@en ;
+  skos:definition "The third truth. Unsatisfactoriness ends when craving ends. That end is nibbāna."@en ;
+  skos:altLabel "cessation"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nibbana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#ariyasacca> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#magga> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-four-noble-truths> ;
+  skos:prefLabel "magga"@pi ;
+  skos:prefLabel "path"@en ;
+  skos:definition "The fourth truth: the way of practice that leads to cessation, spelled out as the noble eightfold path."@en ;
+  skos:altLabel "the path"@en ;
+  skos:altLabel "eightfold path"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#atthangikamagga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#ariyasacca> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#tanha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-four-noble-truths> ;
+  skos:prefLabel "taṇhā"@pi ;
+  skos:prefLabel "craving"@en ;
+  skos:definition "Thirst for sense pleasure, for becoming, or for getting rid of what is painful. It is named as the origin in the second truth."@en ;
+  skos:altLabel "craving"@en ;
+  skos:altLabel "thirst"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samudaya> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#upadana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamatanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bhavatanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vibhavatanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nirodha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#kamatanha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-four-noble-truths> ;
+  skos:prefLabel "kāmataṇhā"@pi ;
+  skos:prefLabel "craving for sensual pleasure"@en ;
+  skos:definition "Thirst for pleasant sights, sounds, smells, tastes, touches, and ideas. One of the three kinds of taṇhā."@en ;
+  skos:altLabel "sensual craving"@en ;
+  skos:altLabel "craving for sense pleasure"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamacchanda> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#bhavatanha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-four-noble-truths> ;
+  skos:prefLabel "bhavataṇhā"@pi ;
+  skos:prefLabel "craving for becoming"@en ;
+  skos:definition "Thirst to continue, to be a particular kind of being, or to arrive at a particular state."@en ;
+  skos:altLabel "craving for existence"@en ;
+  skos:altLabel "craving to become"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bhava> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vibhavatanha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-four-noble-truths> ;
+  skos:prefLabel "vibhavataṇhā"@pi ;
+  skos:prefLabel "craving for non-becoming"@en ;
+  skos:definition "Thirst to be rid of what is painful, or for a painful state to stop. It is still craving."@en ;
+  skos:altLabel "craving for annihilation"@en ;
+  skos:altLabel "craving to get rid of"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nirodha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#atthangikamagga> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "ariyo aṭṭhaṅgiko maggo"@pi ;
+  skos:prefLabel "noble eightfold path"@en ;
+  skos:definition "Right view, intention, speech, action, livelihood, effort, mindfulness, and collectedness. Together they are the path truth."@en ;
+  skos:altLabel "eightfold path"@en ;
+  skos:altLabel "noble eightfold path"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammaditthi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammasankappa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammavaca> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammakammanta> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammaajiva> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammavayama> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammasati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammasamadhi> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sammaditthi> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "sammādiṭṭhi"@pi ;
+  skos:prefLabel "right view"@en ;
+  skos:definition "Seeing experience in the light of the four truths, kamma, and not-self, rather than through a fixed identity."@en ;
+  skos:altLabel "right view"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#atthangikamagga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#panna> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sammasankappa> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "sammāsaṅkappa"@pi ;
+  skos:prefLabel "right intention"@en ;
+  skos:definition "Intention of letting go, of goodwill, and of non-harming."@en ;
+  skos:altLabel "right intention"@en ;
+  skos:altLabel "right thought"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#atthangikamagga> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sammavaca> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "sammāvācā"@pi ;
+  skos:prefLabel "right speech"@en ;
+  skos:definition "Speech that abstains from lying, harshness, division, and idle chatter."@en ;
+  skos:altLabel "right speech"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sila> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sammakammanta> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "sammākammanta"@pi ;
+  skos:prefLabel "right action"@en ;
+  skos:definition "Bodily conduct that abstains from killing, taking what is not given, and sexual harm."@en ;
+  skos:altLabel "right action"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sila> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sammaajiva> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "sammāājīva"@pi ;
+  skos:prefLabel "right livelihood"@en ;
+  skos:definition "Supporting one's life in a way that does not require harm."@en ;
+  skos:altLabel "right livelihood"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sila> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sammavayama> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "sammāvāyāma"@pi ;
+  skos:prefLabel "right effort"@en ;
+  skos:definition "Energy that prevents and abandons unwholesome states and arouses and maintains wholesome ones."@en ;
+  skos:altLabel "right effort"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammappadhana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#viriya> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sammasati> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "sammāsati"@pi ;
+  skos:prefLabel "right mindfulness"@en ;
+  skos:definition "Remembering to attend, clearly, to body, feeling, mind, and patterns of experience."@en ;
+  skos:altLabel "right mindfulness"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#satipatthana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sammasamadhi> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "sammāsamādhi"@pi ;
+  skos:prefLabel "right collectedness"@en ;
+  skos:definition "A mind gathered, steady, and bright enough for insight. Classically described through the four jhānas."@en ;
+  skos:altLabel "right concentration"@en ;
+  skos:altLabel "right collectedness"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samadhi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#jhana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#jhana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-eightfold-path> ;
+  skos:prefLabel "jhāna"@pi ;
+  skos:prefLabel "absorption"@en ;
+  skos:definition "Deep states of unified attention. They steady the mind; they are not themselves the goal."@en ;
+  skos:altLabel "absorption"@en ;
+  skos:altLabel "jhana"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammasamadhi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samatha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#tisikkha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-three-trainings> ;
+  skos:prefLabel "tisikkhā"@pi ;
+  skos:prefLabel "three trainings"@en ;
+  skos:definition "The path gathered into ethics, collectedness, and wisdom. Each supports the others."@en ;
+  skos:altLabel "three trainings"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sila> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samadhi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#panna> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sila> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-three-trainings> ;
+  skos:prefLabel "sīla"@pi ;
+  skos:prefLabel "ethics"@en ;
+  skos:definition "Care in speech, action, and livelihood so that the mind is less tangled by harm."@en ;
+  skos:altLabel "ethics"@en ;
+  skos:altLabel "virtue"@en ;
+  skos:altLabel "precepts"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tisikkha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammavaca> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#samadhi> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-three-trainings> ;
+  skos:prefLabel "samādhi"@pi ;
+  skos:prefLabel "collectedness"@en ;
+  skos:definition "The mind gathered around a wholesome object, neither scattered nor forced."@en ;
+  skos:altLabel "concentration"@en ;
+  skos:altLabel "collectedness"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammasamadhi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samatha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#panna> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-three-trainings> ;
+  skos:prefLabel "paññā"@pi ;
+  skos:prefLabel "wisdom"@en ;
+  skos:definition "Direct understanding of impermanence, unsatisfactoriness, and not-self, not only an idea about them."@en ;
+  skos:altLabel "wisdom"@en ;
+  skos:altLabel "discernment"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vipassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammaditthi> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#paticcasamuppada> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "paṭiccasamuppāda"@pi ;
+  skos:prefLabel "dependent origination"@en ;
+  skos:definition "Nothing arises alone. From not-knowing through feeling, craving, clinging, and becoming, birth and aging-and-death keep turning. When a link is no longer fed, the pattern can cease."@en ;
+  skos:altLabel "dependent origination"@en ;
+  skos:altLabel "dependent arising"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#avijja> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vedana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nibbana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#avijja> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "avijjā"@pi ;
+  skos:prefLabel "not-knowing"@en ;
+  skos:definition "Not seeing the four truths. It is the first link of dependent origination and the last of the ten fetters."@en ;
+  skos:altLabel "ignorance"@en ;
+  skos:altLabel "not-knowing"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#paticcasamuppada> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#moha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sankhara> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "saṅkhāra"@pi ;
+  skos:prefLabel "formations"@en ;
+  skos:definition "Constructing activities: intentions that shape experience, and, as an aggregate, the mental activities other than feeling and perception."@en ;
+  skos:altLabel "formations"@en ;
+  skos:altLabel "volitional formations"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#pancakkhandha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamma> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vinnana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "viññāṇa"@pi ;
+  skos:prefLabel "consciousness"@en ;
+  skos:definition "Knowing through a sense door: seeing, hearing, smelling, tasting, touching, or thinking. It arises with an object; it is not a lasting self."@en ;
+  skos:altLabel "consciousness"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#pancakkhandha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#salayatana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#namarupa> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "nāmarūpa"@pi ;
+  skos:prefLabel "name-and-form"@en ;
+  skos:definition "Mentality and materiality together: the felt, named side of experience and the bodily side, dependent on each other."@en ;
+  skos:altLabel "name and form"@en ;
+  skos:altLabel "name-and-form"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#rupa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#paticcasamuppada> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#salayatana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-sense-bases> ;
+  skos:prefLabel "saḷāyatana"@pi ;
+  skos:prefLabel "six sense bases"@en ;
+  skos:definition "Eye, ear, nose, tongue, body, and mind, meeting their objects: sights, sounds, smells, tastes, touches, and mental phenomena."@en ;
+  skos:altLabel "six sense bases"@en ;
+  skos:altLabel "sense bases"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#phassa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#cakkhu> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#mano> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#phassa> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "phassa"@pi ;
+  skos:prefLabel "contact"@en ;
+  skos:definition "The meeting of a sense base, its object, and the knowing of that meeting. Feeling is born from contact."@en ;
+  skos:altLabel "contact"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#salayatana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vedana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vedana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-five-aggregates> ;
+  skos:prefLabel "vedanā"@pi ;
+  skos:prefLabel "feeling tone"@en ;
+  skos:definition "The pleasant, painful, or neither-pleasant-nor-painful tone of experience. It is not the story about the feeling."@en ;
+  skos:altLabel "feeling"@en ;
+  skos:altLabel "feeling tone"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vedananupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sukha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dukkha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#upadana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "upādāna"@pi ;
+  skos:prefLabel "clinging"@en ;
+  skos:definition "Holding on: to sense pleasure, to views, to rites and habits as if they were the path, and to a doctrine of self."@en ;
+  skos:altLabel "clinging"@en ;
+  skos:altLabel "grasping"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tanha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bhava> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#bhava> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "bhava"@pi ;
+  skos:prefLabel "becoming"@en ;
+  skos:definition "The momentum of a life taking shape from clinging: a way of being that is already leaning toward the next birth of that pattern."@en ;
+  skos:altLabel "becoming"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#upadana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#jati> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#jati> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "jāti"@pi ;
+  skos:prefLabel "birth"@en ;
+  skos:definition "The appearing of a new identity in a world of experience, whether read as rebirth or as the birth of a self-story."@en ;
+  skos:altLabel "birth"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bhava> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#jaramarana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#jaramarana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-dependent-origination> ;
+  skos:prefLabel "jarāmaraṇa"@pi ;
+  skos:prefLabel "aging-and-death"@en ;
+  skos:definition "The ending built into whatever is born: aging, falling apart, grief, and death."@en ;
+  skos:altLabel "aging and death"@en ;
+  skos:altLabel "death"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#jati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#anicca> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#pancakkhandha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-five-aggregates> ;
+  skos:prefLabel "pañcakkhandhā"@pi ;
+  skos:prefLabel "five aggregates"@en ;
+  skos:definition "A person, looked at without a hidden owner: form, feeling, perception, formations, and consciousness."@en ;
+  skos:altLabel "five aggregates"@en ;
+  skos:altLabel "aggregates"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#rupa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vedana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sanna> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sankhara> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vinnana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#anatta> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#rupa> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-five-aggregates> ;
+  skos:prefLabel "rūpa"@pi ;
+  skos:prefLabel "form"@en ;
+  skos:definition "The bodily, material side of experience, including the body as sensed. As an aggregate it is not the self."@en ;
+  skos:altLabel "form"@en ;
+  skos:altLabel "materiality"@en ;
+  skos:altLabel "body"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#pancakkhandha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kayanupassana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sanna> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-five-aggregates> ;
+  skos:prefLabel "saññā"@pi ;
+  skos:prefLabel "perception"@en ;
+  skos:definition "Recognizing and labeling: the mind marking an experience as this or that."@en ;
+  skos:altLabel "perception"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#pancakkhandha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#cakkhu> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-sense-bases> ;
+  skos:prefLabel "cakkhu"@pi ;
+  skos:prefLabel "eye"@en ;
+  skos:definition "The eye base. With a sight and eye-consciousness, visual contact occurs."@en ;
+  skos:altLabel "eye"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#salayatana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sota> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-sense-bases> ;
+  skos:prefLabel "sota"@pi ;
+  skos:prefLabel "ear"@en ;
+  skos:definition "The ear base, the door of hearing."@en ;
+  skos:altLabel "ear"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#salayatana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#ghana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-sense-bases> ;
+  skos:prefLabel "ghāna"@pi ;
+  skos:prefLabel "nose"@en ;
+  skos:definition "The nose base, the door of smell."@en ;
+  skos:altLabel "nose"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#salayatana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#jivha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-sense-bases> ;
+  skos:prefLabel "jivhā"@pi ;
+  skos:prefLabel "tongue"@en ;
+  skos:definition "The tongue base, the door of taste."@en ;
+  skos:altLabel "tongue"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#salayatana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#kaya> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-sense-bases> ;
+  skos:prefLabel "kāya"@pi ;
+  skos:prefLabel "body"@en ;
+  skos:definition "The body as the door of touch, and also the whole lived body contemplated in mindfulness of the body."@en ;
+  skos:altLabel "body"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kayanupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#salayatana> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-varela-science-religion-art> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#mano> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-sense-bases> ;
+  skos:prefLabel "mano"@pi ;
+  skos:prefLabel "mind"@en ;
+  skos:definition "The mind base. Its objects are dhammas: ideas, memories, images, and mental qualities."@en ;
+  skos:altLabel "mind base"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#citta> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#salayatana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#satipatthana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "satipaṭṭhāna"@pi ;
+  skos:prefLabel "foundations of mindfulness"@en ;
+  skos:definition "Four fields for remembering to look: body, feeling tone, mind, and patterns of experience."@en ;
+  skos:altLabel "foundations of mindfulness"@en ;
+  skos:altLabel "satipatthana"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kayanupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vedananupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#cittanupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dhammanupassana> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-practice-guide> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-traditions> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-lions-roar-sati> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sati> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "sati"@pi ;
+  skos:prefLabel "mindfulness"@en ;
+  skos:definition "Remembering. In practice, remembering to be present with what is actually happening, and remembering the teaching while you do."@en ;
+  skos:altLabel "mindfulness"@en ;
+  skos:altLabel "remembering"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#satipatthana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammasati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sampajanna> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-practice-guide> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-varela-science-religion-art> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-lions-roar-sati> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sampajanna> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "sampajañña"@pi ;
+  skos:prefLabel "clear comprehension"@en ;
+  skos:definition "Knowing what one is doing while doing it: purpose, suitability, and the field of experience one is in."@en ;
+  skos:altLabel "clear comprehension"@en ;
+  skos:altLabel "sampajanna"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sati> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-practice-guide> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-varela-science-religion-art> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#anapanasati> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "ānāpānasati"@pi ;
+  skos:prefLabel "mindfulness of breathing"@en ;
+  skos:definition "Using the breath as the anchor for mindfulness, and through it for the body, feeling, mind, and wisdom."@en ;
+  skos:altLabel "mindfulness of breathing"@en ;
+  skos:altLabel "anapanasati"@en ;
+  skos:altLabel "breath"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kayanupassana> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-practice-guide> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#kayanupassana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "kāyānupassanā"@pi ;
+  skos:prefLabel "contemplation of the body"@en ;
+  skos:definition "Attending to the body as body: breath, postures, activities, parts, and elements, without turning it into a self."@en ;
+  skos:altLabel "mindfulness of the body"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#satipatthana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#rupa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#iriyapatha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#patikulamanasikara> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dhatu> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sivathika> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-practice-guide> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#iriyapatha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "iriyāpatha"@pi ;
+  skos:prefLabel "postures"@en ;
+  skos:definition "The four ways the body is disposed: walking, standing, sitting, and lying down. Mindfulness knows which one is happening."@en ;
+  skos:altLabel "four postures"@en ;
+  skos:altLabel "postures"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kayanupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sampajanna> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#patikulamanasikara> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "paṭikūlamanasikāra"@pi ;
+  skos:prefLabel "attention to the body's parts"@en ;
+  skos:definition "Looking at the body as a collection of parts, as the Satipaṭṭhāna Sutta lists them, so that it is harder to take the body as a polished self."@en ;
+  skos:altLabel "body parts"@en ;
+  skos:altLabel "unattractiveness"@en ;
+  skos:altLabel "asubha"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kayanupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#rupa> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#dhatu> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "dhātu"@pi ;
+  skos:prefLabel "elements"@en ;
+  skos:definition "In mindfulness of the body, earth, water, fire, and air: solidity, cohesion, warmth, and motion, known as qualities rather than as mine."@en ;
+  skos:altLabel "elements"@en ;
+  skos:altLabel "four elements"@en ;
+  skos:altLabel "mahabhuta"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kayanupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#rupa> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sivathika> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "sivathikā"@pi ;
+  skos:prefLabel "cemetery contemplation"@en ;
+  skos:definition "Remembering a corpse in its stages of decay, and seeing that this body has the same nature. It is a contemplation of impermanence, not a fascination with death."@en ;
+  skos:altLabel "cemetery contemplations"@en ;
+  skos:altLabel "charnel ground"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kayanupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#anicca> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vedananupassana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "vedanānupassanā"@pi ;
+  skos:prefLabel "contemplation of feeling"@en ;
+  skos:definition "Knowing a feeling as pleasant, painful, or neutral, worldly or unworldly, as it is."@en ;
+  skos:altLabel "mindfulness of feeling"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vedana> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-practice-guide> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#cittanupassana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "cittānupassanā"@pi ;
+  skos:prefLabel "contemplation of mind"@en ;
+  skos:definition "Knowing the mind's current color: with or without greed, hatred, or delusion; contracted or spacious; concentrated or not."@en ;
+  skos:altLabel "mindfulness of mind"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#citta> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-practice-guide> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#dhammanupassana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-foundations-of-mindfulness> ;
+  skos:prefLabel "dhammānupassanā"@pi ;
+  skos:prefLabel "contemplation of patterns"@en ;
+  skos:definition "Watching the categories of experience themselves: hindrances, aggregates, sense bases, factors of awakening, and the truths."@en ;
+  skos:altLabel "mindfulness of dhammas"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#satipatthana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nivarana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bojjhanga> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-practice-guide> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#bodhipakkhiya> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "bodhipakkhiyā dhammā"@pi ;
+  skos:prefLabel "thirty-seven factors of awakening"@en ;
+  skos:definition "The classical map of the path: four foundations of mindfulness, four right efforts, four bases of success, five faculties, five powers, seven awakening factors, and the eightfold path."@en ;
+  skos:altLabel "thirty-seven factors"@en ;
+  skos:altLabel "factors of awakening"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#satipatthana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammappadhana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#iddhipada> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#indriya> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bojjhanga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#atthangikamagga> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sammappadhana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "cattāro sammappadhānā"@pi ;
+  skos:prefLabel "four right efforts"@en ;
+  skos:definition "Effort to prevent and abandon the unwholesome, and to arouse and maintain the wholesome."@en ;
+  skos:altLabel "four right efforts"@en ;
+  skos:altLabel "right effort"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammavayama> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#viriya> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#iddhipada> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "cattāro iddhipādā"@pi ;
+  skos:prefLabel "four bases of success"@en ;
+  skos:definition "Desire to act, energy, mind, and investigation, each joined with effort, so that practice actually develops."@en ;
+  skos:altLabel "bases of success"@en ;
+  skos:altLabel "bases of power"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#chanda> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#viriya> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimamsa> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#chanda> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "chanda"@pi ;
+  skos:prefLabel "desire to act"@en ;
+  skos:definition "Wholesome interest in doing what is needed. It is not the same as sensual craving."@en ;
+  skos:altLabel "zeal"@en ;
+  skos:altLabel "desire to act"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#iddhipada> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tanha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vimamsa> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "vīmaṃsā"@pi ;
+  skos:prefLabel "investigation"@en ;
+  skos:definition "Looking into how a state actually works, rather than taking it on habit."@en ;
+  skos:altLabel "investigation"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#iddhipada> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dhammavicaya> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#indriya> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "pañcindriyāni"@pi ;
+  skos:prefLabel "five faculties"@en ;
+  skos:definition "Faith, energy, mindfulness, collectedness, and wisdom as governing faculties. As powers, the same five are unshakable."@en ;
+  skos:altLabel "five faculties"@en ;
+  skos:altLabel "five powers"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#saddha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#viriya> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samadhi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#panna> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#saddha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "saddhā"@pi ;
+  skos:prefLabel "confidence"@en ;
+  skos:definition "Trust that leans toward practice, born of understanding rather than blind belief."@en ;
+  skos:altLabel "faith"@en ;
+  skos:altLabel "confidence"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#indriya> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#bojjhanga> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "satta bojjhaṅgā"@pi ;
+  skos:prefLabel "seven awakening factors"@en ;
+  skos:definition "Mindfulness, investigation, energy, joy, tranquility, collectedness, and equipoise. Mindfulness starts the set and keeps it balanced."@en ;
+  skos:altLabel "seven factors of awakening"@en ;
+  skos:altLabel "awakening factors"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dhammavicaya> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#viriya> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#piti> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#passaddhi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samadhi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#upekkha> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#dhammavicaya> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "dhammavicaya"@pi ;
+  skos:prefLabel "investigation of experience"@en ;
+  skos:definition "The awakening factor that looks into mental and bodily events and sorts what leads toward freedom."@en ;
+  skos:altLabel "investigation of dhammas"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bojjhanga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimamsa> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#viriya> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "vīriya"@pi ;
+  skos:prefLabel "energy"@en ;
+  skos:definition "Sustained effort that is neither collapse nor strain."@en ;
+  skos:altLabel "energy"@en ;
+  skos:altLabel "effort"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sammavayama> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bojjhanga> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#piti> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "pīti"@pi ;
+  skos:prefLabel "joy"@en ;
+  skos:definition "Interested, buoyant joy that refreshes practice. It is stronger and more energetic than quiet happiness."@en ;
+  skos:altLabel "joy"@en ;
+  skos:altLabel "rapture"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bojjhanga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sukha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sukha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "sukha"@pi ;
+  skos:prefLabel "happiness"@en ;
+  skos:definition "The pleasant ease that can follow joy when effort softens. It is a feeling tone, and still impermanent."@en ;
+  skos:altLabel "happiness"@en ;
+  skos:altLabel "ease"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#piti> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vedana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#passaddhi> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-thirty-seven-factors> ;
+  skos:prefLabel "passaddhi"@pi ;
+  skos:prefLabel "tranquility"@en ;
+  skos:definition "Calm of body and mind. A factor of awakening, and the quiet that lets collectedness deepen."@en ;
+  skos:altLabel "tranquility"@en ;
+  skos:altLabel "calm"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bojjhanga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samadhi> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#nivarana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-hindrances> ;
+  skos:prefLabel "pañca nīvaraṇāni"@pi ;
+  skos:prefLabel "five hindrances"@en ;
+  skos:definition "Sensual desire, ill will, dullness, restlessness-and-worry, and doubt. They cover the mind so that it cannot see clearly."@en ;
+  skos:altLabel "five hindrances"@en ;
+  skos:altLabel "hindrances"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamacchanda> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#byapada> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#thinamiddha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#uddhaccakukkucca> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vicikiccha> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-direct-path> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#kamacchanda> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-hindrances> ;
+  skos:prefLabel "kāmacchanda"@pi ;
+  skos:prefLabel "sensual desire"@en ;
+  skos:definition "The hindrance of wanting to pull a pleasant sense experience closer."@en ;
+  skos:altLabel "sensual desire"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nivarana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamaraga> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#byapada> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-hindrances> ;
+  skos:prefLabel "byāpāda"@pi ;
+  skos:prefLabel "ill will"@en ;
+  skos:definition "The hindrance of pushing away: irritation, hostility, and the wish that something be harmed or gone."@en ;
+  skos:altLabel "ill will"@en ;
+  skos:altLabel "ill-will"@en ;
+  skos:altLabel "vyāpāda"@en ;
+  skos:altLabel "vyapada"@en ;
+  skos:altLabel "aversion"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dosa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nivarana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#thinamiddha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-hindrances> ;
+  skos:prefLabel "thīnamiddha"@pi ;
+  skos:prefLabel "sloth and torpor"@en ;
+  skos:definition "Heaviness of mind and body that sinks attention."@en ;
+  skos:altLabel "sloth-and-torpor"@en ;
+  skos:altLabel "sloth"@en ;
+  skos:altLabel "torpor"@en ;
+  skos:altLabel "dullness"@en ;
+  skos:altLabel "sleepiness"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nivarana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#uddhaccakukkucca> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-hindrances> ;
+  skos:prefLabel "uddhaccakukkucca"@pi ;
+  skos:prefLabel "restlessness and worry"@en ;
+  skos:definition "A stirred mind, plus regret that keeps rehearsing what was done or left undone."@en ;
+  skos:altLabel "restless-and-worry"@en ;
+  skos:altLabel "restlessness-and-worry"@en ;
+  skos:altLabel "restlessness"@en ;
+  skos:altLabel "worry"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#uddhacca> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kukkucca> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nivarana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#kukkucca> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-hindrances> ;
+  skos:prefLabel "kukkucca"@pi ;
+  skos:prefLabel "worry"@en ;
+  skos:definition "Remorse about what was done or left undone. Together with restlessness it is one of the five hindrances."@en ;
+  skos:altLabel "worry"@en ;
+  skos:altLabel "remorse"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#uddhacca> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#uddhaccakukkucca> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vicikiccha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-hindrances> ;
+  skos:prefLabel "vicikicchā"@pi ;
+  skos:prefLabel "doubt"@en ;
+  skos:definition "Paralyzing uncertainty about the practice, not healthy questioning. It is both a hindrance and an early fetter."@en ;
+  skos:altLabel "doubt"@en ;
+  skos:altLabel "skeptical doubt"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nivarana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samyojana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimamsa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dhammavicaya> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#samyojana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-fetters> ;
+  skos:prefLabel "dasa saṃyojanāni"@pi ;
+  skos:prefLabel "ten fetters"@en ;
+  skos:definition "What binds a person to the round: identity view, doubt, attachment to rites, sensual lust, aversion, lust for form and the formless, conceit, restlessness, and not-knowing."@en ;
+  skos:altLabel "ten fetters"@en ;
+  skos:altLabel "fetters"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sakkayaditthi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#silabbataparamasa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamaraga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#patigha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#mana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#uddhacca> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#avijja> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sakkayaditthi> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-fetters> ;
+  skos:prefLabel "sakkāyadiṭṭhi"@pi ;
+  skos:prefLabel "identity view"@en ;
+  skos:definition "Taking one of the aggregates, or the set of them, to be a self."@en ;
+  skos:altLabel "identity view"@en ;
+  skos:altLabel "personality view"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#anatta> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#pancakkhandha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#silabbataparamasa> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-fetters> ;
+  skos:prefLabel "sīlabbataparāmāsa"@pi ;
+  skos:prefLabel "attachment to rites and vows"@en ;
+  skos:definition "Clinging to a rule or ritual as if performing it were itself awakening."@en ;
+  skos:altLabel "attachment to rites"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samyojana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#upadana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#kamaraga> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-fetters> ;
+  skos:prefLabel "kāmarāga"@pi ;
+  skos:prefLabel "sensual lust"@en ;
+  skos:definition "The fetter of desire for sensual pleasure. It thins at the once-return and falls away at non-return."@en ;
+  skos:altLabel "sensual lust"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamacchanda> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#raga> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#patigha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-fetters> ;
+  skos:prefLabel "paṭigha"@pi ;
+  skos:prefLabel "aversion"@en ;
+  skos:definition "The fetter of resistance and ill will. It is abandoned with the stage of non-return."@en ;
+  skos:altLabel "aversion"@en ;
+  skos:altLabel "repulsion"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#byapada> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dosa> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#mana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-fetters> ;
+  skos:prefLabel "māna"@pi ;
+  skos:prefLabel "conceit"@en ;
+  skos:definition "The comparison 'I am better, worse, or equal.' It can remain subtly even after gross identity view has fallen."@en ;
+  skos:altLabel "conceit"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samyojana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#arahant> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#uddhacca> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-fetters> ;
+  skos:prefLabel "uddhacca"@pi ;
+  skos:prefLabel "restlessness"@en ;
+  skos:definition "The subtle stir of the mind. As a fetter it is only fully dropped at arahantship."@en ;
+  skos:altLabel "restlessness"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#uddhaccakukkucca> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kukkucca> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#asava> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> ;
+  skos:prefLabel "āsavā"@pi ;
+  skos:prefLabel "taints"@en ;
+  skos:definition "Outflows that intoxicate the mind: sensuality, becoming, views, and not-knowing. An arahant is one in whom they have ended."@en ;
+  skos:altLabel "taints"@en ;
+  skos:altLabel "outflows"@en ;
+  skos:altLabel "asavas"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamasava> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bhavasava> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#ditthasava> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#avijja> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#kamasava> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> ;
+  skos:prefLabel "kāmāsava"@pi ;
+  skos:prefLabel "taint of sensuality"@en ;
+  skos:definition "The outflow of intoxication with sensual pleasure."@en ;
+  skos:altLabel "taint of sensuality"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#asava> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamaraga> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#bhavasava> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> ;
+  skos:prefLabel "bhavāsava"@pi ;
+  skos:prefLabel "taint of becoming"@en ;
+  skos:definition "The outflow of wanting to continue as a particular kind of being."@en ;
+  skos:altLabel "taint of becoming"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bhava> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#asava> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#ditthasava> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> ;
+  skos:prefLabel "diṭṭhāsava"@pi ;
+  skos:prefLabel "taint of views"@en ;
+  skos:definition "The outflow of clinging to a view as if the view were the one who sees."@en ;
+  skos:altLabel "taint of views"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#asava> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sakkayaditthi> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#raga> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> ;
+  skos:prefLabel "rāga"@pi ;
+  skos:prefLabel "passion"@en ;
+  skos:definition "The root that pulls toward. With hatred and delusion it is one of the three unwholesome roots. Dispassion is its fading."@en ;
+  skos:altLabel "passion"@en ;
+  skos:altLabel "greed"@en ;
+  skos:altLabel "lust"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#viraga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dosa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#moha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#lobha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#viraga> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> ;
+  skos:prefLabel "virāga"@pi ;
+  skos:prefLabel "dispassion"@en ;
+  skos:definition "The fading of passion. In the discourses it stands between clear seeing and the full end of craving."@en ;
+  skos:altLabel "dispassion"@en ;
+  skos:altLabel "fading of lust"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#raga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nirodha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimutti> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#lobha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> ;
+  skos:prefLabel "lobha"@pi ;
+  skos:prefLabel "greed"@en ;
+  skos:definition "The Abhidhamma name for the same pulling root more often called rāga in the suttas."@en ;
+  skos:altLabel "lobha"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#raga> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#dosa> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> ;
+  skos:prefLabel "dosa"@pi ;
+  skos:prefLabel "hatred"@en ;
+  skos:definition "The root that strikes out or pushes away."@en ;
+  skos:altLabel "hatred"@en ;
+  skos:altLabel "anger"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#byapada> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#patigha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#moha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-taints-and-roots> ;
+  skos:prefLabel "moha"@pi ;
+  skos:prefLabel "delusion"@en ;
+  skos:definition "The root of not seeing. It is the cloudy side of avijjā."@en ;
+  skos:altLabel "delusion"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#avijja> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#brahmavihara> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-divine-abidings> ;
+  skos:prefLabel "brahmavihārā"@pi ;
+  skos:prefLabel "divine abidings"@en ;
+  skos:definition "Four boundless attitudes: goodwill, compassion, joy in others' good, and equanimity."@en ;
+  skos:altLabel "divine abidings"@en ;
+  skos:altLabel "brahmaviharas"@en ;
+  skos:altLabel "four immeasurables"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#metta> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#karuna> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#mudita> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#upekkha> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-compassion> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-salzberg-openness> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#metta> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-divine-abidings> ;
+  skos:prefLabel "mettā"@pi ;
+  skos:prefLabel "goodwill"@en ;
+  skos:definition "The wish that beings be well, without needing them to be yours."@en ;
+  skos:altLabel "loving-kindness"@en ;
+  skos:altLabel "goodwill"@en ;
+  skos:altLabel "metta"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#brahmavihara> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-compassion> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-salzberg-openness> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#karuna> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-divine-abidings> ;
+  skos:prefLabel "karuṇā"@pi ;
+  skos:prefLabel "compassion"@en ;
+  skos:definition "The tremble of the heart that wants suffering to ease, in oneself and in others."@en ;
+  skos:altLabel "compassion"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#brahmavihara> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dukkha> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-compassion> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#mudita> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-divine-abidings> ;
+  skos:prefLabel "muditā"@pi ;
+  skos:prefLabel "joy in others' good"@en ;
+  skos:definition "Gladness when another being is happy or free. It is the antidote to envy."@en ;
+  skos:altLabel "sympathetic joy"@en ;
+  skos:altLabel "mudita"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#brahmavihara> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-compassion> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#upekkha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-divine-abidings> ;
+  skos:prefLabel "upekkhā"@pi ;
+  skos:prefLabel "equanimity"@en ;
+  skos:definition "Balance that does not lean into grabbing or pushing away. It is the fourth divine abiding, and also an awakening factor."@en ;
+  skos:altLabel "upekkha"@en ;
+  skos:altLabel "upeka"@en ;
+  skos:altLabel "equipoise"@en ;
+  skos:altLabel "equanimity"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#brahmavihara> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#metta> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#karuna> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#mudita> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bojjhanga> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-compassion> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sotapanna> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-noble-persons> ;
+  skos:prefLabel "sotāpanna"@pi ;
+  skos:prefLabel "stream-enterer"@en ;
+  skos:definition "A person who has seen the truths directly and dropped identity view, doubt, and attachment to rites."@en ;
+  skos:altLabel "stream-enterer"@en ;
+  skos:altLabel "stream entry"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sakkayaditthi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vicikiccha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#silabbataparamasa> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sakadagami> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-noble-persons> ;
+  skos:prefLabel "sakadāgāmī"@pi ;
+  skos:prefLabel "once-returner"@en ;
+  skos:definition "A person in whom sensual lust and aversion have been weakened."@en ;
+  skos:altLabel "once-returner"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sotapanna> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#anagami> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#anagami> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-noble-persons> ;
+  skos:prefLabel "anāgāmī"@pi ;
+  skos:prefLabel "non-returner"@en ;
+  skos:definition "A person who has abandoned sensual lust and aversion."@en ;
+  skos:altLabel "non-returner"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamaraga> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#patigha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#arahant> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-noble-persons> ;
+  skos:prefLabel "arahant"@pi ;
+  skos:prefLabel "worthy one"@en ;
+  skos:definition "A person in whom the taints and the remaining fetters have ended. Nothing further is to be done for their own freedom."@en ;
+  skos:altLabel "arahant"@en ;
+  skos:altLabel "worthy one"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#asava> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nibbana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimutti> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#nibbana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-noble-persons> ;
+  skos:prefLabel "nibbāna"@pi ;
+  skos:prefLabel "extinguishing"@en ;
+  skos:definition "The end of greed, hatred, and delusion, and so the end of the fire of dukkha. It is not a place and not a self."@en ;
+  skos:altLabel "nibanna"@en ;
+  skos:altLabel "nirvana"@en ;
+  skos:altLabel "extinguishing"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nirodha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#arahant> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimutti> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vimutti> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-noble-persons> ;
+  skos:prefLabel "vimutti"@pi ;
+  skos:prefLabel "liberation"@en ;
+  skos:definition "Release. The mind is freed from what bound it, for a time through collectedness or for good through the end of the taints."@en ;
+  skos:altLabel "liberation"@en ;
+  skos:altLabel "release"@en ;
+  skos:altLabel "freedom"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nibbana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#cetovimutti> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#pannavimutti> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimokkha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#magga> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#cetovimutti> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-noble-persons> ;
+  skos:prefLabel "cetovimutti"@pi ;
+  skos:prefLabel "liberation of the mind"@en ;
+  skos:definition "A mind released, often through collectedness, from hindrance or from defilement. The discourses pair it with liberation by wisdom."@en ;
+  skos:altLabel "liberation of the mind"@en ;
+  skos:altLabel "release of mind"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimutti> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#pannavimutti> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samadhi> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#pannavimutti> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-noble-persons> ;
+  skos:prefLabel "paññāvimutti"@pi ;
+  skos:prefLabel "liberation by wisdom"@en ;
+  skos:definition "Release that comes from seeing. It is the understanding side of freedom, named beside liberation of the mind."@en ;
+  skos:altLabel "liberation by wisdom"@en ;
+  skos:altLabel "release by understanding"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimutti> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#cetovimutti> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#panna> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vimokkha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-noble-persons> ;
+  skos:prefLabel "aṭṭha vimokkhā"@pi ;
+  skos:prefLabel "eight deliverances"@en ;
+  skos:definition "Eight ways the mind is released from being stuck on form and on feeling, ending with the cessation of perception and feeling."@en ;
+  skos:altLabel "eight deliverances"@en ;
+  skos:altLabel "deliverances"@en ;
+  skos:altLabel "vimokkha"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vimutti> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samadhi> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#paramattha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-ultimates> ;
+  skos:prefLabel "paramattha dhammā"@pi ;
+  skos:prefLabel "ultimate realities"@en ;
+  skos:definition "The Theravada Abhidhamma division of what is finally real for analysis: consciousness, mental factors, form, and nibbāna. This is a later map laid over the sutta teachings."@en ;
+  skos:altLabel "ultimate realities"@en ;
+  skos:altLabel "abhidhamma"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#citta> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#cetasika> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#rupa> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nibbana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#citta> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-ultimates> ;
+  skos:prefLabel "citta"@pi ;
+  skos:prefLabel "mind"@en ;
+  skos:definition "The knowing moment itself. In mindfulness of mind, one knows its quality without owning it."@en ;
+  skos:altLabel "citta"@en ;
+  skos:altLabel "heart-mind"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#cittanupassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vinnana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#cetasika> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-ultimates> ;
+  skos:prefLabel "cetasika"@pi ;
+  skos:prefLabel "mental factors"@en ;
+  skos:definition "Qualities that arise with a moment of knowing, such as contact, feeling, perception, intention, and the roots."@en ;
+  skos:altLabel "mental factors"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#citta> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sankhara> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#kamma> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "kamma"@pi ;
+  skos:prefLabel "action"@en ;
+  skos:definition "Intentional action of body, speech, or mind, and the way that intention shapes what follows."@en ;
+  skos:altLabel "karma"@en ;
+  skos:altLabel "kamma"@en ;
+  skos:altLabel "action"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vipaka> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sankhara> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vipaka> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "vipāka"@pi ;
+  skos:prefLabel "result"@en ;
+  skos:definition "The ripening of intentional action as experience. Result is to be understood, not hated or owned."@en ;
+  skos:altLabel "result"@en ;
+  skos:altLabel "fruition"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#kamma> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#samsara> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "saṃsāra"@pi ;
+  skos:prefLabel "wandering on"@en ;
+  skos:definition "The round of birth, aging, and death kept spinning by not-knowing and craving."@en ;
+  skos:altLabel "samsara"@en ;
+  skos:altLabel "wandering on"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#paticcasamuppada> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nibbana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#yathabhuta> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "yathābhūta"@pi ;
+  skos:prefLabel "as it actually is"@en ;
+  skos:definition "Knowing a thing in the way it is, rather than in the way wanting or fear paints it."@en ;
+  skos:altLabel "according to reality"@en ;
+  skos:altLabel "as it really is"@en ;
+  skos:altLabel "yathabhuta"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#yathabhutananadassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vipassana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#nanadassana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "ñāṇadassana"@pi ;
+  skos:prefLabel "knowledge and vision"@en ;
+  skos:definition "Seeing that has become understanding. In the discourses it names a direct knowing, not a borrowed opinion."@en ;
+  skos:altLabel "knowledge and vision"@en ;
+  skos:altLabel "knowing and seeing"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#yathabhutananadassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#panna> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#yathabhutananadassana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "yathābhūtañāṇadassana"@pi ;
+  skos:prefLabel "knowledge and vision according to reality"@en ;
+  skos:definition "Knowledge and vision of things as they actually are. Insight is aimed at this seeing."@en ;
+  skos:altLabel "knowledge and vision of things as they are"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#yathabhuta> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nanadassana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bodhi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vipassana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#vipassana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "vipassanā"@pi ;
+  skos:prefLabel "insight"@en ;
+  skos:definition "Clear seeing of the three marks in present experience. It is a quality of attention, not a brand of technique."@en ;
+  skos:altLabel "insight"@en ;
+  skos:altLabel "vipassana"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#panna> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samatha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tilakkhana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#samatha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "samatha"@pi ;
+  skos:prefLabel "calming"@en ;
+  skos:definition "The cultivation of a peaceful, gathered mind. It supports insight and is not a rival to it."@en ;
+  skos:altLabel "calm"@en ;
+  skos:altLabel "tranquility meditation"@en ;
+  skos:altLabel "samatha"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samadhi> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vipassana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#bhavana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "bhāvanā"@pi ;
+  skos:prefLabel "cultivation"@en ;
+  skos:definition "Developing wholesome qualities by bringing them to mind again and again. Meditation is one form of it."@en ;
+  skos:altLabel "cultivation"@en ;
+  skos:altLabel "meditation"@en ;
+  skos:altLabel "bhavana"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#samatha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#vipassana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#yoniso> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "yoniso manasikāra"@pi ;
+  skos:prefLabel "wise attention"@en ;
+  skos:definition "Attending to the root of an experience: what feeds it, and what leads toward freedom rather than toward more clinging."@en ;
+  skos:altLabel "wise attention"@en ;
+  skos:altLabel "appropriate attention"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#panna> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#appamada> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "appamāda"@pi ;
+  skos:prefLabel "heedfulness"@en ;
+  skos:definition "Care that does not throw life away. The canon treats it as the one condition for all wholesome states."@en ;
+  skos:altLabel "heedfulness"@en ;
+  skos:altLabel "diligence"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sati> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#viriya> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#dana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "dāna"@pi ;
+  skos:prefLabel "generosity"@en ;
+  skos:definition "Giving. It loosens holding and is the natural companion of a teaching offered freely."@en ;
+  skos:altLabel "generosity"@en ;
+  skos:altLabel "giving"@en ;
+  skos:altLabel "dana"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sila> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sunnata> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-practice> ;
+  skos:prefLabel "suññatā"@pi ;
+  skos:prefLabel "emptiness"@en ;
+  skos:definition "In the early texts, emptiness of a self in experience. Later traditions unfold this word much further; here it stays tied to anattā."@en ;
+  skos:altLabel "emptiness"@en ;
+  skos:altLabel "sunyata"@en ;
+  skos:altLabel "sunnata"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#anatta> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-compassion> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#tisarana> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-refuge> ;
+  skos:prefLabel "tisaraṇa"@pi ;
+  skos:prefLabel "three refuges"@en ;
+  skos:definition "Going for refuge to the Buddha, the Dhamma, and the Saṅgha: the teacher, the teaching, and the community of those who have practiced it deeply."@en ;
+  skos:altLabel "three refuges"@en ;
+  skos:altLabel "refuge"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#buddha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dhamma> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sangha> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#buddha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-refuge> ;
+  skos:prefLabel "buddha"@pi ;
+  skos:prefLabel "awakened one"@en ;
+  skos:definition "One who has woken up to the way things are, and the historical teacher Gotama whose teaching this ontology records."@en ;
+  skos:altLabel "buddha"@en ;
+  skos:altLabel "awakened"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tisarana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bodhi> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#dhamma> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-refuge> ;
+  skos:prefLabel "dhamma"@pi ;
+  skos:prefLabel "the teaching, a phenomenon"@en ;
+  skos:definition "Two related uses: the teaching that leads to freedom, and any phenomenon that can be known. The mind's objects are dhammas in the second sense."@en ;
+  skos:altLabel "dharma"@en ;
+  skos:altLabel "dhamma"@en ;
+  skos:altLabel "the teaching"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tisarana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#dhammanupassana> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-traditions> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#sangha> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-refuge> ;
+  skos:prefLabel "saṅgha"@pi ;
+  skos:prefLabel "community"@en ;
+  skos:definition "The community of practitioners, and in the refuge formula especially those who have entered the noble path."@en ;
+  skos:altLabel "sangha"@en ;
+  skos:altLabel "community"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#tisarana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#sotapanna> ;
+  dct:source <https://marlonbarrios.github.io/sati-ontology#source-analayo-traditions> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
+
+<https://marlonbarrios.github.io/sati-ontology#bodhi> a owl:Class, skos:Concept ;
+  skos:inScheme <https://marlonbarrios.github.io/sati-ontology> ;
+  rdfs:subClassOf <https://marlonbarrios.github.io/sati-ontology#group-refuge> ;
+  skos:prefLabel "bodhi"@pi ;
+  skos:prefLabel "awakening"@en ;
+  skos:definition "Waking up. The factors that assist it are the bodhipakkhiyā dhammā."@en ;
+  skos:altLabel "awakening"@en ;
+  skos:altLabel "enlightenment"@en ;
+  skos:altLabel "bodhi"@en ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#buddha> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#bodhipakkhiya> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#nibbana> ;
+  skos:related <https://marlonbarrios.github.io/sati-ontology#yathabhutananadassana> ;
+  rdfs:isDefinedBy <https://marlonbarrios.github.io/sati-ontology> .
